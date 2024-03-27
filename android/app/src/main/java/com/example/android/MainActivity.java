@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("rust");
 
         // func 1
-        int i = returni32 (5);
+        int i = returni32 (10);
 
         ((TextView)findViewById(R.id.func1Name)).setText("returni32 (5)");
         ((TextView)findViewById(R.id.func1Result)).setText("Result: " + i);

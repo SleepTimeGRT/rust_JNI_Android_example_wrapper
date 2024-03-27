@@ -1,5 +1,9 @@
 use std::path::Path;
 
+pub fn int_times_3(int: i32) -> i32 {
+    let new_int: i32 = int * 3;
+    new_int
+}
 pub fn int_times_2(int: i32) -> i32 {
     let new_int: i32 = int * 2;
     new_int
