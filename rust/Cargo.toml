@@ -6,6 +6,9 @@ authors = ["mad-de <cev_madde@msn.com>"]
 
 [dependencies]
 jni = { version = "0.21.1", default-features = false }
+shamir_secret_sharing = "0.1.1"
+num-traits = "0.2.18"
+zeroize = "1.7.0"
 
 [profile.release]
 lto = true
